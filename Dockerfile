@@ -17,7 +17,7 @@ RUN apt-get -y install git
 
 # Set environment variables
 # ENV FLASK_APP flaskr
-# ENV HOST 0.0.0.0
+ENV HOST 0.0.0.0
 
 # Install production dependencies.
 RUN pip install --no-cache-dir -r requirements.txt
