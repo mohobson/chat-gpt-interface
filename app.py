@@ -5,6 +5,7 @@ from flask import Flask, redirect, render_template, request, url_for
 
 def create_app():
     app = Flask(__name__)
+    app.config.from_object("settings")
     openai.api_key = os.getenv("OPENAI_API_KEY")
 
 
