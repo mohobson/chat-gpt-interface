@@ -31,4 +31,4 @@ ENV FLASK_APP=app.py
 # Timeout is set to 0 to disable the timeouts of the workers to allow Cloud Run to handle instance scaling.
 
 # CMD exec gunicorn --bind :$PORT --workers 1 --threads 8 --timeout 0 app:app
-CMD exec gunicorn --bind :$PORT --workers 1 --threads 8 app:app
+CMD exec gunicorn --bind :$PORT --workers 2 --threads 8 app:app
