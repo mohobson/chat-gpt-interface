@@ -18,7 +18,9 @@
     <input type="submit" value="Generate response" />
   </form>
   {% if result %}
-  <div class="result">{{ result }}</div>
+  <div class="container">
+    <div class="result">{{ result }}</div>
+  </div>
   {% endif %}
 </body>
 <script src="{{ url_for('static', filename='javascript.js') }}"></script>
