@@ -102,7 +102,7 @@ output {
 
 .result {
   /* flex-basis: calc(100% - 80px); */
-  flex-basis: 50%;
+  /* flex-basis: 50%; */
   font-weight: bold;
   margin-top: 40px;
   /* padding: 0px 50px; */
